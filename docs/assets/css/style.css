@@ -1030,19 +1030,19 @@ section {
   justify-content: center;
 }
 .contact .social-links a {
-  font-size: 18px;
+  font-size: 9px;
   display: inline-block;
   color: #687683;
   line-height: 1;
   margin: 0 8px;
   transition: 0.3s;
-  padding: 14px;
-  border-radius: 50px;
-  border: 1px solid #dde1e4;
+  padding: 7px;
+  border-radius: 10px;
+  /* border: 1px solid #dde1e4; */
 }
 .contact .social-links a:hover {
   color: #fff;
-  border-color: #ffb727;
+  /* border-color: #ffb727; */
   background: #ffb727;
 }
 .contact .php-email-form {
@@ -1154,7 +1154,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(6, 67, 248, 0.762); */
 }
 #footer .container {
   position: relative;
