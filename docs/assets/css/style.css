@@ -637,7 +637,7 @@ section {
 /*--------------------------------------------------------------
 # My Projects
 --------------------------------------------------------------*/
-.projects .icon-box {
+.projects .card {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -647,39 +647,24 @@ section {
   text-align: center;
   border: 1px solid #fff;
 }
-.projects .icon {
-  margin: 0 auto 20px auto;
-  padding-top: 17px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 72px;
-  height: 72px;
-  background: #fff4df;
-}
-.projects .icon i {
-  font-size: 36px;
-  line-height: 1;
-  color: #ffb727;
-}
-.projects .title {
+.projects .card-title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.projects .title a {
+.projects .card-title a {
   color: #111;
   transition: 0.3s;
 }
-.projects .description {
+.projects .card-text {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
-.projects .icon-box:hover {
+.projects .card:hover {
   border-color: #ffb727;
 }
-.projects .icon-box:hover .title a {
+.projects .card:hover .card-title a {
   color: #ffb727;
 }
 
